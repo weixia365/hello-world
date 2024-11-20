@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
+    <style>
+      :root {
+        --vp-c-bg: #fff;
+      }
+
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
+      }
+
+      html,
+      body {
+        background-color: var(--vp-c-bg);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem('vuepress-color-scheme')
+      const systemDarkMode =
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
+
+      if (userMode === 'light') {
+        document.documentElement.dataset.theme = 'light'
+      } else if (userMode === 'dark' || systemDarkMode) {
+        document.documentElement.dataset.theme = 'dark'
+      }
+    </script>
+    <title>微夏的个人博客</title><meta name="description" content="">
+    <link rel="preload" href="/blogs/assets/style-CF0Udb0r.css" as="style"><link rel="stylesheet" href="/blogs/assets/style-CF0Udb0r.css">
+    <link rel="modulepreload" href="/blogs/assets/app-rGDsIAlV.js"><link rel="modulepreload" href="/blogs/assets/404.html-CZ84Q8CJ.js">
+    <link rel="prefetch" href="/blogs/assets/index.html-CV7sXiSj.js" as="script"><link rel="prefetch" href="/blogs/assets/setupDevtools-7MC2TMWH-HJcSvQfx.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-d573f4c9><main class="page" data-v-d573f4c9><div class="theme-default-content" vp-content data-v-d573f4c9><h1 data-v-d573f4c9>404</h1><blockquote data-v-d573f4c9>That&#39;s a Four-Oh-Four.</blockquote><a class="route-link" href="/blogs/" data-v-d573f4c9>Take me home</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/blogs/assets/app-rGDsIAlV.js" defer></script>
+  </body>
+</html>
